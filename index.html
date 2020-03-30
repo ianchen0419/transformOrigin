@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="favicon.png">
+	<title>Document</title>
+</head>
+<body>
+	
+<div class="panel">
+  <div class="input-area">
+    <h4>transform-origin: </h4>
+    <input id="inputX" type="text" placeholder="center, left, right, 50px, 10%, ..."/>
+    <input id="inputY" type="text" placeholder="center, top, bottom, 50px, 10%,  ..."/>
+  </div>
+  <hr/>
+  <div class="output-area">
+    <div class="moved" id="movedElement" style="transform-origin: center center;"></div>
+    <div class="static"><img id="target" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNiAyNiI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2U2NjQ2NTt9LmJ7ZmlsbDpub25lO3N0cm9rZTojZTY2NDY1O3N0cm9rZS1taXRlcmxpbWl0OjEwO308L3N0eWxlPjwvZGVmcz48dGl0bGU+Y3Jvc3NoYWlyPC90aXRsZT48Y2lyY2xlIGNsYXNzPSJhIiBjeD0iMTMiIGN5PSIxMyIgcj0iMy41Ii8+PGxpbmUgY2xhc3M9ImIiIHgxPSIxMyIgeDI9IjEzIiB5Mj0iMjYiLz48bGluZSBjbGFzcz0iYiIgeDE9IjI2IiB5MT0iMTMiIHkyPSIxMyIvPjxjaXJjbGUgY2xhc3M9ImIiIGN4PSIxMyIgY3k9IjEzIiByPSI4LjUiLz48L3N2Zz4K" width="20"/></div>
+  </div>
+  <hr/>
+  <div class="code-area">
+    <pre><code>transform-origin: <span id="originX">center</span> <span id="originY">center</span> 
+transform: rotate(<span id="rotate">0</span>deg)</code></pre>
+  </div>
+</div>
+	<script src="script.js"></script>
+</body>
+</html>
